@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 单独配置mybatis相关的特性 -->
+	<settings>
+		<setting name="logImpl" value="LOG4J"/>
+	</settings>
+    <!-- 实体类取别名 -->
+	<typeAliases>
+		<package name="entity"/>
+	</typeAliases>
+	<!-- 加载奇葩位置的mapper文件 -->
+	<!-- <mappers>
+		 <mapper resource="mapperxx/StudentMapper.xml"/>
+	</mappers> -->
+</configuration>
